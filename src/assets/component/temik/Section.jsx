@@ -1,5 +1,9 @@
 import React from "react";
 
-export const Section = () => {
-  return <div>Section</div>;
-};
+export function Section() {
+  return (
+    <>
+      <h1>аораоывра</h1>
+    </>
+  );
+}
