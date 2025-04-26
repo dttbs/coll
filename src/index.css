@@ -1,3 +1,6 @@
 .Asema {
     display: flex;    margin: auto;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
