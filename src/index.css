@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container1 {
+  background: #f9ce36;
+  width: auto;
+  height: 745px;
+  z-index: -3;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+  padding-top: 72px;
+  cursor: pointer;
+  transition: 0, 4s;
+}
+
+li {
+  font-weight: 300;
+}
+
+li:hover {
+  transition: 0, 4s;
+  color: white;
+}
+
+.Happy {
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.phone {
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.phone-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.container2 {
+  margin-left: 295px;
+  margin-top: 172px;
+}
+
+.text1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 142%;
+}
+
+.text2 {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 16px;
+  line-height: 142%;
+}
+
+.button {
+  width: 185px;
+  height: 40px;
+  border: none;
+  border-radius: 150px;
+  margin-top: 24px;
+  color: #fff;
+  background: linear-gradient(#e11041, #ed1c4e);
+  cursor: pointer;
+  transition: 0, 3s;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #e11041, #cd1f53);
+  transition: 0, 3s;
+}
+
+img {
+  position: absolute;
+  z-index: 1;
+  margin-left: 540px;
+  width: 900px;
+}
