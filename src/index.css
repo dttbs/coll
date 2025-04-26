@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .header {
   display: flex;
@@ -38,3 +41,7 @@ h3 {
 p {
   font-size: 18px;
 }
+.Asema {
+    display: flex;    margin: auto;
+}
+
